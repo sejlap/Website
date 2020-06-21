@@ -1,0 +1,34 @@
+.dugme{
+    text-align: center;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+#red{
+    display: inline;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+
+.main-div{
+    padding-right: 20px;
+    margin-right: 50px;;
+}
+
+@media screen and (max-width: 600px) {
+    .kartica{
+      width: 50px;
+      height:30px;
+      margin-top: 0;
+      float: left;
+      color: red
+    }
+   #first{
+       float: left;
+       max-width: 20px;
+       max-height: 30px;
+       font-size: small;
+   }
+    
+  }

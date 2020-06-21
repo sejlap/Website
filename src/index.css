@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(background.jpg) no-repeat center fixed; 
+    background-size: cover;
+    background-color: #1d7671; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+  
+  
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+  #meni {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+  }
+
+  .meni2 {
+    display: inline;
+  }
+
+  .link-stil {
+    margin-right: 2%;
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+  }
+  
+
+
+  #footer {
+    position: absolute;
+    left:0;
+    bottom:0;
+    right:0;
+   
+    color: white;
+    height: 4%;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  .fa-linkedin, .fa-github{
+    background: rgba(0, 0, 0, 0);
+    color:white;
+    float: left;
+    margin-left: 1%;
+  }
